@@ -15,10 +15,12 @@ Composition of the proposed dataset. We visualize the collection workflow and ge
 
 **RoadGIE** supports connectivity-aware prompts, including clicks and scribbles, which inherently align with the topology of road networks.
 
-![](/assets/1.gif)
-![](/assets/2.gif)
-![](/assets/3.gif)
-![](/assets/4.gif)
+<p align="center">
+  <img src="/assets/1.gif" width="24%" />
+  <img src="/assets/2.gif" width="24%" />
+  <img src="/assets/3.gif" width="24%" />
+  <img src="/assets/4.gif" width="24%" />
+</p>
 
 ## Dependencies and Installation
 ```python
