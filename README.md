@@ -20,6 +20,7 @@ Composition of the proposed dataset. We visualize the collection workflow and ge
 ![](/assets/4.gif)
 
 ## Dependencies and Installation
+
 ```python
 # 1. download your environment
 https://pan.baidu.com/s/1ViI0hy21-bO42-cvStk89g code:8888 
@@ -32,6 +33,7 @@ source env/bin/activate
 ```
 
 ## Quick Inference
+
 ```python
 # 1. run the demo
 python demo/demo.py
