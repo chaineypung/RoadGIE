@@ -63,4 +63,17 @@ python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml
 
 ## Acknowledgements
 
-* Our training code builds on the [`ScribblePrompt`](https://github.com/halleewong/ScribblePrompt) library. Thanks to [@halleewong](https://github.com/halleewong) for sharing this code! 
+* Our training code builds on the [`ScribblePrompt`](https://github.com/halleewong/ScribblePrompt) library. Thanks to [@halleewong](https://github.com/halleewong) for sharing this code!
+
+### Citation
+
+If you use this in your research, please cite this project.
+
+```bibtex
+@article{peng2026,
+	title={RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction},
+	author={Chenxu Peng, Chenxu Wang, Yimian Dai, Yongxiang Liu, Ming-Ming Cheng, Xiang Li},
+	journal={CVPR},
+	year={2026}
+}
+```
