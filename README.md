@@ -42,6 +42,11 @@ python demo/demo.py
 http://192.168.4.12:7860/
 ```
 
+## Training
+```python
+python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml 
+```
+
 ## To Do
 
 - [x] Release demo 
