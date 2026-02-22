@@ -47,8 +47,8 @@ http://192.168.4.12:7860/
 - [x] Release demo 
 - [x] Release model code
 - [x] Release model weights
+- [x] Release training code
 - [ ] Release WorldRoadSeg-360K dataset
-- [ ] Release training code
 
 ## Acknowledgements
 
