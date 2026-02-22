@@ -1,0 +1,185 @@
+augmentations:
+- RandomAffine:
+    degrees:
+    - 0
+    - 360
+    p: 0.5
+    scale:
+    - 0.8
+    - 1.1
+    translate:
+    - 0
+    - 0.2
+- RandomBrightnessContrast:
+    brightness:
+    - -0.1
+    - 0.1
+    contrast:
+    - 0.8
+    - 1.2
+    p: 0.5
+- RandomVariableGaussianBlur:
+    kernel_size: 5
+    p: 0.5
+    sigma:
+    - 0.1
+    - 1.1
+- RandomVariableGaussianNoise:
+    mean:
+    - 0
+    - 0.05
+    p: 0.5
+    std:
+    - 0
+    - 0.05
+- RandomVariableElasticTransform:
+    alpha:
+    - 1
+    - 2
+    p: 0.00
+    sigma:
+    - 6
+    - 8
+- RandomSharpness:
+    p: 0.0
+    sharpness: 5
+- RandomHorizontalFlip:
+    p: 0.5
+- RandomVerticalFlip:
+    p: 0.5
+
+
+
+
+
+
+
+callbacks:
+  epoch:
+  - pylot.callbacks.PrintLogged
+  - pylot.callbacks.JobProgress
+  - pylot.callbacks.ETA
+  - pylot.callbacks.TerminateOnNaN
+  - pylot.callbacks.ModelCheckpoint:
+      monitor: dice_score
+      phase: val_id
+  - pylot.callbacks.ModelCheckpoint:
+      monitor: dice_score
+      phase: val_od
+  - scribbleprompt.callbacks.WandbLogger:
+      project: scribbleprompt-unet-wbc
+      entity: hallee #update this!
+
+
+
+
+
+
+
+
+
+
+
+
+prompt_generator:
+  _class: scribbleprompt.interactions.prompt_generator.FlexiblePromptEmbed
+  bbox_embed:
+    _fn: scribbleprompt.interactions.embed.bbox_shaded
+  box_generators:
+  - _class: scribbleprompt.interactions.boxes.UniformBBox 
+  click_embed:
+    _fn: scribbleprompt.interactions.embed.click_onehot
+  init_neg_click_generators:
+    - _class: scribbleprompt.interactions.clicks.RandomClick
+    - _class: scribbleprompt.interactions.clicks.RandBorderClick
+  init_pos_click_generators:
+    - _class: scribbleprompt.interactions.clicks.RandomClick
+    - _class: scribbleprompt.interactions.clicks.ComponentCenterClick
+    - _class: scribbleprompt.interactions.clicks.RandBorderClick
+  scribble_generators:
+    - _class: scribbleprompt.interactions.scribbles.LineScribble
+    - _class: scribbleprompt.interactions.scribbles.CenterlineScribble
+    - _class: scribbleprompt.interactions.scribbles.BezierScribble
+  correction_click_generators:
+    - _class: scribbleprompt.interactions.clicks.RandomClick
+    - _class: scribbleprompt.interactions.clicks.ComponentCenterClick
+    - _class: scribbleprompt.interactions.clicks.RandBorderClick
+  correction_clicks: [1,3]
+  correction_scribbles: [1,3]
+  init_pos_click: [1,3]
+  init_neg_click: [0,3]
+  init_neg_scribble: [0,3]
+  init_pos_scribble: [1,3]
+  prob_bbox: 0.0
+  prob_click: 0.7
+  prob_scribble: 0.7
+  from_logits: true
+
+
+
+
+
+
+
+
+
+
+
+data:
+  _class: scribbleprompt.datasets.superpixel.SuperpixelMultiDataset
+  samples_per_epoch: 1000
+  sampling: task
+  superpixel_prob: 0.0 # 0.5
+  train_tasks: # add your own datasets here!
+    - _class: scribbleprompt.datasets.wbc.WBC
+      subdataset: WorldRoad
+      label: road
+  val_tasks: # add your own datasets here!
+    - _class: scribbleprompt.datasets.wbc.WBC
+      subdataset: WorldRoad
+      label: road
+dataloader:
+  batch_size: 8 # 4######################################
+  num_workers: 8
+  pin_memory: true
+experiment:
+  seed: 42
+  detach: true
+  verbose: true
+log:
+  checkpoint_freq: 5
+  metrics:
+    dice_score:
+      _fn: pylot.metrics.dice_score
+      batch_reduction: null
+      from_logits: true #true##############################
+  root: /mnt/data1/pcx/hms/ScribblePrompt/output/ #update this!
+  save_freq: 100
+loss_func:
+  _class: scribbleprompt.loss.FocalDiceLoss
+  batch_reduction: null
+  from_logits: true #true################################
+model:
+  _class: scribbleprompt.models.network.UNet
+  features:
+  - 192
+  - 192
+  - 192
+  - 192
+  in_channels: 6
+  out_channels: 1  #8######################################
+  # options used in BaseExperiment.build_model()
+  pretrained_weights: "/mnt/data1/pcx/hms/ScribblePrompt/output/20250427_003824-CRQF-4bb2760049801658b198d1a0d6e8ef9e/checkpoints/epoch-400.pt"
+  compile: true
+optim:
+  _class: torch.optim.Adam
+  lr: 0.0003
+train:
+  epochs: 1000
+  eval_freq: 50
+  prompt_iter: 5 #5#####################################
+  bf16: true
+  data_parallel: true
+  grad_accumulation: false
+
+
