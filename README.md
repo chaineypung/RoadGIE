@@ -22,7 +22,7 @@ Composition of the proposed dataset. We visualize the collection workflow and ge
   <img src="/assets/4.gif" width="24%" />
 </p>
 
-<img src="/assets/data" alt="drawing" width="100%" height="30%"/>
+<img src="/assets/data.png" alt="drawing" width="100%" height="30%"/>
 </div>
 
 ## Dependencies and Installation
