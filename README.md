@@ -50,7 +50,7 @@ http://192.168.4.12:7860/
 python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml 
 ```
 
-<img src="/assets/table.png" alt="drawing" width="50%" height="30%"/>
+<img src="/assets/table.png" alt="drawing" width="80%" height="30%"/>
 </div>
 
 ## To Do
