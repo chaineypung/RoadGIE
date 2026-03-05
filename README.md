@@ -46,7 +46,7 @@
 <img src="/assets/data.png" alt="drawing" width="100%" height="30%"/>
 </div>
 
-## Dependencies and Installation
+## Installation
 ```python
 # 1. download your environment
 https://pan.baidu.com/s/1ViI0hy21-bO42-cvStk89g code:8888 
@@ -58,7 +58,7 @@ tar -xzf RoadGIE.tar.gz -C env
 source env/bin/activate
 ```
 
-## Quick Inference
+## Inference
 ```python
 # 1. run the demo
 python demo/demo.py
