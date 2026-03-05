@@ -6,8 +6,8 @@
   <h1 align="center">RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction (CVPR 2026)
 </h1>
   <p align="center">
-      <a href='https://github.com/Martinser' style='text-decoration: none' >Chenxu Peng</a><sup>1</sup>&emsp;
-      <a href='https://github.com/ShenZhang-Shin' style='text-decoration: none' >Chenxu Wang</a><sup>1</sup>&emsp;
+      <a href='https://github.com/chaineypung' style='text-decoration: none' >Chenxu Peng</a><sup>1</sup>&emsp;
+      <a href='https://github.com/facias914' style='text-decoration: none' >Chenxu Wang</a><sup>1</sup>&emsp;
       <a href='https://scholar.google.com/citations?user=y5Ov6VAAAAAJ&hl=zh-CN&oi=ao' style='text-decoration: none' >Yimian Dai</a><sup>1,2</sup>&emsp;
       <a href='https://scholar.google.com/citations?user=a9tTHSEAAAAJ&hl=zh-CN&oi=ao' style='text-decoration: none' >Yongxiang Liu</a><sup>3</sup>&emsp;
       <a href='https://mmcheng.net/cmm/' style='text-decoration: none' >Ming-Ming Cheng</a><sup>1,2</sup>&emsp;
