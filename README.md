@@ -23,10 +23,10 @@
 <img src="/assets/dataset.png" alt="drawing" width="100%" height="30%"/>
 </div>
 
-## Abstract
+## 📰Abstract
 > *Accurate road segmentation from aerial imagery is fundamental to many geospatial applications. However, existing road segmentation datasets frequently exhibit imbalanced scene diversity, insufficient semantic granularity, and inadequate structural continuity, restricting their generalization capabilities across varied environments. To address these challenges, we introduce WorldRoadSeg-360K, the largest and most diverse road segmentation dataset to date, comprising 366,947 high-resolution images collected from 38 countries and 223 cities across various terrains and continents. WorldRoadSeg-360K provides a comprehensive benchmark for evaluating road segmentation models and highlights the challenges that current methods face in handling diverse and structurally complex scenes. Automated approaches often struggle to preserve road connectivity, while current interactive methods lack efficient, topology-sensitive tools for real-world road editing. To this end, we present RoadGIE, establishing a novel interactive paradigm for road extraction in remote sensing. Unlike prior point- or box-based prompting strategies, RoadGIE supports connectivity-aware prompts, including clicks and scribbles, which inherently align with the topology of road networks. To improve structural consistency and mitigate performance degradation during iterative interactions, RoadGIE integrates an expert-guided prompting strategy and adapts the skeleton-based recall loss for interactive scenarios. RoadGIE achieves state-of-the-art performance in both segmentation accuracy and topological consistency on WorldRoadSeg-360K and other benchmarks, while maintaining efficient operation with only 3.7 million parameters and real-time processing capabilities.*
 
-## Overview
+## 🚩Overview
 
 **RoadGIE** supports connectivity-aware prompts, including clicks and scribbles, which inherently align with the topology of road networks.
 
