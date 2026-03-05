@@ -21,7 +21,6 @@
 </p>
 
 <img src="/assets/dataset.png" alt="drawing" width="100%" height="30%"/>
-Composition of the proposed dataset. We visualize the collection workflow and geographical distribution of the WorldRoadSeg-360K dataset. Furthermore, representative examples of road segmentation across typical terrain types are displayed on both sides of the figure.
 </div>
 
 ## Abstract
