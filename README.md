@@ -2,7 +2,9 @@
 <img src="/assets/logo.png" alt="drawing" width="100%" height="10%"/>
     <h4 align="center"> </h4>
 
-<h1>RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction</h1>
+<p align="center">
+  <h1 align="center">RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction (CVPR 2026)
+</h1>
 
 <img src="/assets/dataset.png" alt="drawing" width="100%" height="30%"/>
 Composition of the proposed dataset. We visualize the collection workflow and geographical distribution of the WorldRoadSeg-360K dataset. Furthermore, representative examples of road segmentation across typical terrain types are displayed on both sides of the figure.
