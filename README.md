@@ -71,14 +71,14 @@ Comparison of different models using different datasets.
 
 | Method | Baseline dataset (Dice↑) | Baseline dataset (APLS↑) | WorldRoadSeg-360K (Dice↑) | WorldRoadSeg-360K (APLS↑) |
 | :--- | :---: | :---: | :---: | :---: |
-| EISeg [9] | 0.701 | 0.511 | 0.706 | 0.515 |
-| ScribbleSeg-B0 [4] | 0.766 | 0.560 | 0.785 | 0.578 |
-| ScribbleSeg-B3 [4] | 0.761 | 0.556 | 0.788 | 0.580 |
-| SAM (ViT-b) [17] | 0.719 | 0.522 | 0.737 | 0.539 |
-| SAM (ViT-h) [17] | 0.738 | 0.539 | 0.756 | 0.553 |
-| PRISM-2D [19] | 0.622 | 0.463 | 0.643 | 0.481 |
-| PRISM-2D-Lite [20] | 0.656 | 0.489 | 0.669 | 0.496 |
-| ScribblePrompt [40] | 0.791 | 0.584 | 0.809 | 0.592 |
+| EISeg | 0.701 | 0.511 | 0.706 | 0.515 |
+| ScribbleSeg-B0 | 0.766 | 0.560 | 0.785 | 0.578 |
+| ScribbleSeg-B3 | 0.761 | 0.556 | 0.788 | 0.580 |
+| SAM (ViT-b) | 0.719 | 0.522 | 0.737 | 0.539 |
+| SAM (ViT-h) | 0.738 | 0.539 | 0.756 | 0.553 |
+| PRISM-2D | 0.622 | 0.463 | 0.643 | 0.481 |
+| PRISM-2D-Lite | 0.656 | 0.489 | 0.669 | 0.496 |
+| ScribblePrompt | 0.791 | 0.584 | 0.809 | 0.592 |
 | **RoadGIE** | **0.807** | **0.593** | **0.835** | **0.620** |
 
 <br>
