@@ -87,7 +87,6 @@ Performance of models pretrained on different datasets and evaluated on the same
 
 | Pretrained dataset | Dice↑ | Recall↑ | clDice↑ | APLS↑ | β₀↓ | β₁↓ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Global-Scale | 0.686 | 0.605 | 0.783 | 0.512 | 13.582 | 37.886 |
 | Baseline dataset | 0.807 | 0.897 | 0.869 | 0.593 | 8.150 | 3.061 |
 | WorldRoadSeg-360K | **0.835** | **0.934** | **0.905** | **0.620** | **5.823** | **2.752** |
 
