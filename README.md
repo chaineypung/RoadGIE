@@ -5,6 +5,25 @@
 <p align="center">
   <h1 align="center">RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction (CVPR 2026)
 </h1>
+  <p align="center">
+      <a href='https://github.com/Martinser' style='text-decoration: none' >Chenxu Peng</a><sup>1</sup>&emsp;
+      <a href='https://github.com/ShenZhang-Shin' style='text-decoration: none' >Chenxu Wang</a><sup>1</sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=y5Ov6VAAAAAJ&hl=zh-CN&oi=ao' style='text-decoration: none' >Yimian Dai</a><sup>1,2</sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=a9tTHSEAAAAJ&hl=zh-CN&oi=ao' style='text-decoration: none' >Yongxiang Liu</a><sup>3</sup>&emsp;
+      <a href='https://mmcheng.net/cmm/' style='text-decoration: none' >Ming-Ming Cheng</a><sup>1,2</sup>&emsp;
+      <a href='https://implus.github.io/' style='text-decoration: none' >Xiang Li</a><sup>1,2*</sup>&emsp;
+        <p align="center">
+        $^{1}$ VCIP, CS, Nankai University, $^{2}$ NKIARI, Shenzhen Futian, $^{3}$ National University of Defense Technology
+        <p align='center'>
+      <div align="center">
+       <a href='https://arxiv.org/abs/2507.01467v2'><img src='https://img.shields.io/badge/arXiv-2507.01467v2-brown.svg?logo=arxiv&logoColor=white'></a>
+	<a href='https://huggingface.co/Martinser/REG/tree/main'><img src='https://img.shields.io/badge/🤗-Model-blue.svg'></a>
+		  <a href='https://zhuanlan.zhihu.com/p/1952346823168595518'><img src='https://img.shields.io/badge/Zhihu-chinese_article-blue.svg?logo=zhihu&logoColor=white'></a>
+	  </div>
+    <p align='center'>
+    </p>
+   </p>
+</p>
 
 <img src="/assets/dataset.png" alt="drawing" width="100%" height="30%"/>
 Composition of the proposed dataset. We visualize the collection workflow and geographical distribution of the WorldRoadSeg-360K dataset. Furthermore, representative examples of road segmentation across typical terrain types are displayed on both sides of the figure.
