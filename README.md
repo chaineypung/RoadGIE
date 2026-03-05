@@ -71,6 +71,27 @@ http://192.168.4.12:7860/
 python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml 
 ```
 
+## SOTA segmentation models weights pretrained on WorldRoadSeg-360K
+
+| Encoder | Decoder | Avg Dice | Model.py | Weights |
+| :--- | :--- | :---: | :---: | :---: |
+| SegNeXt_base | DaFormer33_ASPP | 77.63 | [SegNeXt_base](https://pan.baidu.com/s/1fake_link_01?pwd=abcd) | [SegNeXt_base](https://pan.baidu.com/s/2fake_link_01?pwd=abcd) |
+| tf_efficientnetv2_l_in21ft1k | SiUnet | 77.21 | [tf_efficientnetv2_l](https://pan.baidu.com/s/1fake_link_02?pwd=abcd) | [tf_efficientnetv2_l](https://pan.baidu.com/s/2fake_link_02?pwd=abcd) |
+| tf_efficientnet_b7_ns | SiUnet | 77.07 | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/1fake_link_03?pwd=abcd) | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/2fake_link_03?pwd=abcd) |
+| convnext_large_384_in22ft1k | SiUnet | 77.94 | [convnext_large_384](https://pan.baidu.com/s/1fake_link_04?pwd=abcd) | [convnext_large_384](https://pan.baidu.com/s/2fake_link_04?pwd=abcd) |
+| SwinT_small | UperNet | 77.26 | [SwinT_small](https://pan.baidu.com/s/1fake_link_05?pwd=abcd) | [SwinT_small](https://pan.baidu.com/s/2fake_link_05?pwd=abcd) |
+| PvT_v2_b4 | DaFormer33_ASPP | 77.57 | [PvT_v2_b4](https://pan.baidu.com/s/1fake_link_06?pwd=abcd) | [PvT_v2_b4](https://pan.baidu.com/s/2fake_link_06?pwd=abcd) |
+| Dual_ViT_b | DaFormer33_ASPP | 77.77 | [Dual_ViT_b](https://pan.baidu.com/s/1fake_link_07?pwd=abcd) | [Dual_ViT_b](https://pan.baidu.com/s/2fake_link_07?pwd=abcd) |
+| SMT_base | DaFormer33_ASPP | 77.76 | [SMT_base](https://pan.baidu.com/s/1fake_link_08?pwd=abcd) | [SMT_base](https://pan.baidu.com/s/2fake_link_08?pwd=abcd) |
+| Uniformer_base | DaFormer33_ASPP | 77.65 | [Uniformer_base](https://pan.baidu.com/s/1fake_link_09?pwd=abcd) | [Uniformer_base](https://pan.baidu.com/s/2fake_link_09?pwd=abcd) |
+| WaveViT | DaFormer33_ASPP | 77.40 | [WaveViT](https://pan.baidu.com/s/1fake_link_10?pwd=abcd) | [WaveViT](https://pan.baidu.com/s/2fake_link_10?pwd=abcd) |
+| MiT_b2 | SegFormer | 76.89 | [MiT_b2](https://pan.baidu.com/s/1fake_link_11?pwd=abcd) | [MiT_b2](https://pan.baidu.com/s/2fake_link_11?pwd=abcd) |
+| iFormer_large | DaFormer33_ASPP | 77.58 | [iFormer_large](https://pan.baidu.com/s/1fake_link_12?pwd=abcd) | [iFormer_large](https://pan.baidu.com/s/2fake_link_12?pwd=abcd) |
+| HorNet_small_gf | DaFormer33_ASPP | 77.68 | [HorNet_small_gf](https://pan.baidu.com/s/1fake_link_13?pwd=abcd) | [HorNet_small_gf](https://pan.baidu.com/s/2fake_link_13?pwd=abcd) |
+| CoaT_4level_small | DaFormer33_ASPP | 77.47 | [CoaT_4level_small](https://pan.baidu.com/s/1fake_link_14?pwd=abcd) | [CoaT_4level_small](https://pan.baidu.com/s/2fake_link_14?pwd=abcd) |
+| CoaT_4level_lite_medium | DaFormer33_ASPP | 77.38 | [CoaT_4level_lite](https://pan.baidu.com/s/1fake_link_15?pwd=abcd) | [CoaT_4level_lite](https://pan.baidu.com/s/2fake_link_15?pwd=abcd) |
+| CoaT_5level_parallel_small | DaFormer33_ASPP | 77.76 | [CoaT_5level_parallel](https://pan.baidu.com/s/1fake_link_16?pwd=abcd) | [CoaT_5level_parallel](https://pan.baidu.com/s/2fake_link_16?pwd=abcd) |
+
 ## Results
 
 Comparison of different models using different datasets.
