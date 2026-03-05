@@ -65,8 +65,31 @@ http://192.168.4.12:7860/
 python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml 
 ```
 
-<img src="/assets/table.png" alt="drawing" width="80%" height="30%"/>
-</div>
+## Results
+
+Comparison of different models using different datasets.
+
+| Method | Baseline dataset (Dice↑) | Baseline dataset (APLS↑) | WorldRoadSeg-360K (Dice↑) | WorldRoadSeg-360K (APLS↑) |
+| :--- | :---: | :---: | :---: | :---: |
+| EISeg [9] | 0.701 | 0.511 | 0.706 | 0.515 |
+| ScribbleSeg-B0 [4] | 0.766 | 0.560 | 0.785 | 0.578 |
+| ScribbleSeg-B3 [4] | 0.761 | 0.556 | 0.788 | 0.580 |
+| SAM (ViT-b) [17] | 0.719 | 0.522 | 0.737 | 0.539 |
+| SAM (ViT-h) [17] | 0.738 | 0.539 | 0.756 | 0.553 |
+| PRISM-2D [19] | 0.622 | 0.463 | 0.643 | 0.481 |
+| PRISM-2D-Lite [20] | 0.656 | 0.489 | 0.669 | 0.496 |
+| ScribblePrompt [40] | 0.791 | 0.584 | 0.809 | 0.592 |
+| **RoadGIE** | **0.807** | **0.593** | **0.835** | **0.620** |
+
+<br>
+
+Performance of models pretrained on different datasets and evaluated on the same test set. Best results are highlighted in bold.
+
+| Pretrained dataset | Dice↑ | Recall↑ | clDice↑ | APLS↑ | β₀↓ | β₁↓ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Global-Scale | 0.686 | 0.605 | 0.783 | 0.512 | 13.582 | 37.886 |
+| Baseline dataset | 0.807 | 0.897 | 0.869 | 0.593 | 8.150 | 3.061 |
+| WorldRoadSeg-360K | **0.835** | **0.934** | **0.905** | **0.620** | **5.823** | **2.752** |
 
 ## To Do
 
