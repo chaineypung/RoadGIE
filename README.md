@@ -75,22 +75,22 @@ python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml
 
 | Encoder | Decoder | Dice | Model | Weight |
 | :--- | :--- | :---: | :---: | :---: |
-| SegNeXt_base | DaFormer33_ASPP | 0.740 | [SegNeXt_base](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [SegNeXt_base](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| tf_efficientnetv2_l_in21ft1k | SiUnet | 0.726 | [tf_efficientnetv2_l](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [tf_efficientnetv2_l](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| tf_efficientnet_b7_ns | SiUnet | 0.719 | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| convnext_large_384_in22ft1k | SiUnet | 0.740 | [convnext_large_384](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [convnext_large_384](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| SwinT_small | UperNet | 0.737 | [SwinT_small](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [SwinT_small](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| PvT_v2_b4 | DaFormer33_ASPP | 0.738 | [PvT_v2_b4](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [PvT_v2_b4](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| Dual_ViT_b | DaFormer33_ASPP | 0.742 | [Dual_ViT_b](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [Dual_ViT_b](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| SMT_base | DaFormer33_ASPP | 0.742 | [SMT_base](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [SMT_base](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| Uniformer_base | DaFormer33_ASPP | 0.740 | [Uniformer_base](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [Uniformer_base](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| WaveViT | DaFormer33_ASPP | 0.738 | [WaveViT](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [WaveViT](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| MiT_b2 | SegFormer | 0.735 | [MiT_b2](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [MiT_b2](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| iFormer_large | DaFormer33_ASPP | 0.739 | [iFormer_large](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [iFormer_large](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| HorNet_small_gf | DaFormer33_ASPP | 0.742 | [HorNet_small_gf](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [HorNet_small_gf](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| CoaT_4level_small | DaFormer33_ASPP | 0.736 | [CoaT_4level_small](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [CoaT_4level_small](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| CoaT_4level_lite_medium | DaFormer33_ASPP | 0.739 | [CoaT_4level_lite](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [CoaT_4level_lite](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
-| CoaT_5level_parallel_small | DaFormer33_ASPP | 0.741 | [CoaT_5level_parallel](https://pan.baidu.com/s/184NVdsza8EmLm8D-rG3Uew?pwd=zr3s) | [CoaT_5level_parallel](https://pan.baidu.com/s/1FgSC3mflgx0VT83B7o5S2w?pwd=62ua) |
+| SegNeXt_base | DaFormer33_ASPP | 0.740 | [SegNeXt_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [SegNeXt_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| tf_efficientnetv2_l_in21ft1k | SiUnet | 0.726 | [tf_efficientnetv2_l](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [tf_efficientnetv2_l](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| tf_efficientnet_b7_ns | SiUnet | 0.719 | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [tf_efficientnet_b7_ns](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| convnext_large_384_in22ft1k | SiUnet | 0.740 | [convnext_large_384](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [convnext_large_384](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| SwinT_small | UperNet | 0.737 | [SwinT_small](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [SwinT_small](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| PvT_v2_b4 | DaFormer33_ASPP | 0.738 | [PvT_v2_b4](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [PvT_v2_b4](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| Dual_ViT_b | DaFormer33_ASPP | 0.742 | [Dual_ViT_b](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [Dual_ViT_b](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| SMT_base | DaFormer33_ASPP | 0.742 | [SMT_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [SMT_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| Uniformer_base | DaFormer33_ASPP | 0.740 | [Uniformer_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [Uniformer_base](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| WaveViT | DaFormer33_ASPP | 0.738 | [WaveViT](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [WaveViT](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| MiT_b2 | SegFormer | 0.735 | [MiT_b2](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [MiT_b2](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| iFormer_large | DaFormer33_ASPP | 0.739 | [iFormer_large](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [iFormer_large](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| HorNet_small_gf | DaFormer33_ASPP | 0.742 | [HorNet_small_gf](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [HorNet_small_gf](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| CoaT_4level_small | DaFormer33_ASPP | 0.736 | [CoaT_4level_small](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [CoaT_4level_small](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| CoaT_4level_lite_medium | DaFormer33_ASPP | 0.739 | [CoaT_4level_lite](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [CoaT_4level_lite](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
+| CoaT_5level_parallel_small | DaFormer33_ASPP | 0.741 | [CoaT_5level_parallel](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) | [CoaT_5level_parallel](https://pan.baidu.com/s/1trpvNGqGTG3Z1LaRkYxVyw?pwd=uw68) |
 
 ## Results
 
