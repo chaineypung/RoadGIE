@@ -3,7 +3,7 @@
     <h4 align="center"> </h4>
 
 <p align="center">
-  <h1 align="center">RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction (CVPR 2026)
+  <h1 align="center">RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction (CVPR 2026) [![paper](https://img.shields.io/badge/arXiv-2605.26862-brown.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.26862)
 </h1>
   <p align="center">
       <a href='https://github.com/chaineypung' style='text-decoration: none' >Chenxu Peng</a><sup>1</sup>&emsp;
