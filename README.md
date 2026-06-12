@@ -49,7 +49,7 @@
 ## Installation
 ```python
 # 1. download your environment
-https://pan.baidu.com/s/1ViI0hy21-bO42-cvStk89g code:8888 
+https://pan.baidu.com/s/1NblpjwPvn4PwVvhqfvwT7A code:8sj2 
 # 2. make a directory and unzip your environment
 cd RoadGIE
 mkdir -p env
