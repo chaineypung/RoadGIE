@@ -126,7 +126,7 @@ Performance of models pretrained on different datasets and evaluated on the same
 - [x] Release model code
 - [x] Release model weights
 - [x] Release training code
-- [ ] Release WorldRoadSeg-360K dataset
+- [x] Release WorldRoadSeg-360K dataset
 
 ## Acknowledgements
 
