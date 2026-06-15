@@ -66,6 +66,9 @@ python demo/demo.py
 http://192.168.4.12:7860/
 ```
 
+## Data
+Please download the dataset via [Baidu Cloud](https://pan.baidu.com/s/1CGQMcB13wORMnTp4zjmUGg)(ebh5).
+
 ## Training
 ```python
 python RoadGIE/roadgie/experiment/unet.py -config train_unet.yaml 
