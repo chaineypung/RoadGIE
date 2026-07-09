@@ -138,10 +138,11 @@ Performance of models pretrained on different datasets and evaluated on the same
 If you use this in your research, please cite this project.
 
 ```bibtex
-@article{peng2026,
-	title={RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction},
-	author={Chenxu Peng, Chenxu Wang, Yimian Dai, Yongxiang Liu, Ming-Ming Cheng, Xiang Li},
-	journal={CVPR},
-	year={2026}
+@inproceedings{peng2026roadgie,
+  title={RoadGIE: Towards A Global-Scale Aerial Benchmark for Generalizable Interactive Road Extraction},
+  author={Peng, Chenxu and Wang, Chenxu and Dai, Yimian and Liu, Yongxiang and Cheng, Ming-Ming and Li, Xiang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13285--13295},
+  year={2026}
 }
 ```
